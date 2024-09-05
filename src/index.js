@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //TODO 1 enter your key from geocode here
-export const GEOCODE_API_KEY="";
+export const GEOCODE_API_KEY="66c5f5da77cb9329401565vif5761b6";
 
 //TODO 2 enter your function app url here
-export const FUNCTION_APP_URL="http://localhost:7071/api/getHospitalsList";
+export const FUNCTION_APP_URL="https://cloud-user-17provtechindia.azurewebsites.net/api/getHospitalsList?code=+";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
